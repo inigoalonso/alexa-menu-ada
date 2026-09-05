@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "menú de ada",
+      "intents": [
+        {
+          "name": "MenuForDateIntent",
+          "slots": [
+            {
+              "name": "fecha",
+              "type": "AMAZON.DATE"
+            }
+          ],
+          "samples": [
+            "qué hay {fecha} para comer",
+            "qué hay para comer {fecha}",
+            "qué hay {fecha} en el colegio",
+            "qué ponen {fecha} para comer",
+            "qué ponen {fecha} en el colegio",
+            "cuál es el menú de {fecha}",
+            "cuál es el menú {fecha}",
+            "qué come Ada {fecha}",
+            "qué tiene Ada {fecha} para comer",
+            "qué comida hay {fecha}",
+            "dime qué hay {fecha} para comer"
+          ]
+        },
+        {
+          "name": "NextSchoolMenuIntent",
+          "slots": [],
+          "samples": [
+            "cuál es el próximo menú",
+            "qué hay el próximo día de colegio",
+            "qué hay el próximo día que haya cole",
+            "cuál es la próxima comida",
+            "qué toca el próximo día"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
